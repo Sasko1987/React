@@ -1,0 +1,10 @@
+.col {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.col img {
+  width: 80px;
+  margin-right: 20px;
+}
