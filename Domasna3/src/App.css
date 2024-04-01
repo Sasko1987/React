@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+form,
+.card {
+  width: 350px;
+  height: 350px;
+  background: rgb(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 25px;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  text-align: center;
+}
+
+button {
+  background-color: #64ccc5;
+  border: none;
+  padding: 15px 50px;
+  cursor: pointer;
+  border-radius: 25px;
+  margin: 10px auto;
+  color: white;
+}
+
+button:hover,
+button:active {
+  background-color: #4c9f99;
+}
+
+label:first-child {
+  margin-top: 20px;
+}
+
+.title {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.card {
+  align-items: start;
+}
+
+.card h2 {
+  align-self: center;
+}
